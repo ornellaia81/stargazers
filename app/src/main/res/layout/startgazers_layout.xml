@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:visibility="visible"
+        android:id="@+id/stargazers_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2">
+    </GridView>
+
+    <LinearLayout
+        android:id="@+id/no_stars_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/stars"/>
+    <TextView
+        android:id="@+id/no_starts_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/no_stargazers"/>
+    </LinearLayout>
+
+</LinearLayout>

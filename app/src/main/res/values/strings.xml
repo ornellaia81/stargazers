@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Stargazers</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_text">Get your stargazers!</string>
+    <string name="insert_owner">Owner:</string>
+    <string name="insert_repo">Repository:</string>
+    <string name="enter">start</string>
+    <string name="no_stargazers">Unfortunately there are not yet stargazers!</string>
+</resources>
